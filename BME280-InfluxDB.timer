@@ -1,0 +1,9 @@
+[Unit]
+Description=BME280-InfluxDB.js
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=20s
+
+[Install]
+WantedBy=timers.target

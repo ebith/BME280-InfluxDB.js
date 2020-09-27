@@ -1,0 +1,8 @@
+[Unit]
+Description=BME280-InfluxDB.js
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/pi/.ghq/github.com/ebith/BME280-InfluxDB.js
+ExecStart=/usr/bin/node index.js
+User=pi
